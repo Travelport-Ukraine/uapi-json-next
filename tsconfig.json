@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es6"
+    ],
+    "types": ["jest", "chai", "node"],
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
